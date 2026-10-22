@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Secrets
+.env
+
+# Data (raw legal texts and generated artefacts are not versioned)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+qdrant_storage/
+models/
+*.log
+
+# Personal files
+CV_*
+*.docx
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
